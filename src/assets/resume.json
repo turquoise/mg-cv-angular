@@ -1,0 +1,365 @@
+
+{
+  "basics": {
+    "name": "Monica Gosschalk",
+    "label": "UX Design, Prototyping, Business Analyst",
+    "picture": "",
+    "email": "monicagosschalk@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": "I am a multidisciplinary UX Designer and Developer who is constantly learning new technologies",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "",
+      "region": "UK"
+    },
+    "profiles": [{
+      "network": "",
+      "username": "",
+      "url": ""
+    }]
+  },
+  "work": [
+    {
+    "company": "Company 1",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c1",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 2",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c2",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 3",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c3",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 4",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c4",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 5",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c5",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 6",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c6",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 7",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c7",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 8",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c8",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 9",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c9",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+  {
+    "company": "Company 10",
+    "position": "President",
+    "website": "http://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description...",
+    "link": "c10",
+    "highlights": [
+      "Started the company"
+    ]
+  }
+],
+  "volunteer": [
+    {
+    "organization": "",
+    "position": "",
+    "website": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+      ""
+    ]
+  }
+],
+  "education": [
+    {
+    "institution": {
+        "name": "UCL Institute of Education",
+        "logo": "https://www.ucl.ac.uk/visual-identity/logos/standalone.png",
+        "id": "headingOne"
+      },
+    "area": "Computer Science Teacher Training",
+    "studyType": "PGCE with QTS",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "4.0",
+    "link": "ucl",
+    "description": {
+        "courses": [
+          "Effective teaching of computing as a school subject",
+          "Assessment and Learning",
+          "Professional Practice and feedback",
+          "Planning and Enabling Learning and Assessment",
+          "Theories and Principles of Teaching and Learning",
+          "Curriculum Design: Principles and Practice"
+        ],
+        "id": "collapseOne"
+      }
+  },
+{
+    "institution": {
+        "name": "London School of Economics",
+        "logo": "http://takeielts.britishcouncil.org/sites/default/files/London-School-of-Economics-and-Political-Science-Logo.png?1425825812",
+        "id": "headingTwo"
+      },
+    "area": "Analysis, Design and Management of Information Systems",
+    "studyType": "MSc. Information Systems",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "",
+    "link": "lse",
+    "description": {
+        "courses": [
+          "Information Systems in Organisations",
+          "Systems Development using Soft Systems Methodology and UML",
+          "Information Systems Management in Context",
+          "Innovation and Technology Management",
+          "Information, Risk and Security",
+          "IT and Development",
+          "Management and Economics of E-Business",
+          "Designing Information Systems",
+          "Information Society: theory and practice",
+          "Information systems: privacy and data protection",
+          "Completed dissertation on project management issues in the Automotive Industry"
+        ],
+        "id": "collapseTwo"
+      }
+  },
+{
+    "institution": {
+        "name": "Birkbeck College, University of London",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Birkbeck%2C_University_of_London_logo.svg/311px-Birkbeck%2C_University_of_London_logo.svg.png",
+        "id": "headingThree"
+      },
+    "area": "Cognitive Psychology",
+    "studyType": "BSc. Psychology",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "",
+    "link": "birkbeck",
+    "description": {
+        "courses": [
+          "Social Psychology",
+          "Personality and Individual Differences",
+          "Reasoning and Decision Making",
+          "Perception and Attention",
+          "Animal Learning",
+          "Abnormal Psychology and Neuroscience",
+          "Memory and Cognition",
+          "Child Development",
+          "Language",
+          "Critical Analysis and Experimental Research",
+          "Final Year Project on Memory published in a Psychology Journal"
+        ],
+        "id": "collapseThree"
+      }
+  },
+  {
+    "institution": {
+        "name": "Konstfack School of Art and Design",
+        "logo": "https://www.konstfack.se/Global/extern/konstfack_logotyp_stor.jpg",
+        "id": "headingFour"
+      },
+    "area": "Art and Design",
+    "studyType": "BA Textile Design",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "gpa": "",
+    "link": "konstfack",
+    "description": {
+        "courses": [
+          "Colour Theory",
+          "Design Theory",
+          "Product Design",
+          "Life Drawing",
+          "Perspective Drawing",
+          "Mixed Media Painting",
+          "Screen Printing",
+          "Photography",
+          "Weaving",
+          "Art History",
+          "Work Experience in a Printing Factory in Southern Sweden",
+          "Work Experience in a Design Studio in Lyon, France",
+          "Sold Final Year Artwork to a hospital in Stockholm, Sweden"
+        ],
+        "id": "collapseFour"
+      }
+  }
+],
+  "awards": [{
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
+  }],
+  "publications": [{
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "website": "",
+    "summary": ""
+  }],
+  "skills": [
+    {
+    "name": "Web Development",
+    "type": "js",
+    "level": "Proficient",
+    "keywords": [
+      { "name": "HTML", "level": 80},
+      { "name": "Bootstrap", "level": 70},
+      { "name": "CSS", "level": 70},
+      { "name": "Angular", "level": 50},
+      { "name": "Javascript", "level": 50},
+      { "name": "TypeScript", "level": 50},
+      { "name": "json", "level": 50}
+    ]
+  },
+  {
+    "name": "UX Design",
+    "type": "ux",
+    "level": "Proficient",
+    "keywords": [
+         { "name": "Persona design", "level": 70 },
+         { "name": "Interaction design", "level": 70 },
+         { "name": "User testing", "level": 60}
+      ]
+  },
+  {
+    "name": "UX Prototyping",
+    "type": "prototype",
+    "level": "Proficient",
+    "keywords": [
+      { "name": "Axure", "level": 60},
+      { "name": "Justinmind", "level": 50},
+      { "name": "Paper prototyping", "level": 70}
+    ]
+  },
+  {
+    "name": "Business Analysis",
+    "type": "ba",
+    "level": "Proficient",
+    "keywords": [
+      { "name": "Process Flow diagrams", "level": 60},
+      { "name": "Entity Relationship diagrams", "level": 60 },
+      { "name": "Stakeholder management", "level": 60},
+      { "name": "Project management", "level": 70}
+    ]
+  }
+],
+  "languages": [
+    {
+    "name": "English",
+    "level": "Native speaker"
+    },
+    {
+    "name": "Swedish",
+    "level": "Advanced"
+    }
+],
+  "interests": [
+    {
+    "name": "JavaScript Frameworks",
+    "keywords": [
+      "Angular",
+      "React",
+      "VueJS"
+    ]
+    },
+    {
+    "name": "Business skills",
+    "keywords": [
+      "Design Thinking",
+      "Innovation"
+    ]
+    }
+],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }]
+}

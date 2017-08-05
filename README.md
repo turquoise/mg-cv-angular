@@ -1,6 +1,45 @@
 # MgCv
 
+FormSpree https://formspree.io/
+
+Disqus blog https://blog.disqus.com/
+
+json placeholder https://jsonplaceholder.typicode.com/
+
+ng-static-site-generator https://www.npmjs.com/package/ng-static-site-generator https://github.com/kevinphelps/ng-static-site-generator-starter
+
+jsonblog post https://jsonld.com/blog-post/
+
+formspree http://jasonvoirin.com/#/ http://ngmodules.org/modules/angular-formspree
+https://github.com/jasonvoirin/angular-formspree/blob/master/README.md
+
+
+formspree - this works - https://stackoverflow.com/questions/42455536/formspree-in-angular2
+
+regex tutorial https://regexone.com/
+
+accordion - http://www.muller.tech/post/2017/04/03/create-angular4-accordion/
+
+angular material https://material.angular.io/guide/getting-started
+https://medium.com/@ladyleet/popups-modals-and-navigation-using-angular-material-2-components-in-your-angular-2-project-faf510dbcdee
+
+https://medium.com/@tarik.nzl/making-use-of-dialogs-in-material-2-mddialog-7533d27df41
+
+material2 custom themes https://github.com/angular/material2/blob/master/guides/theming.md
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
+
+bootstrap 4 - http://tutorialsdojo.com/blog/2017/03/03/intro-bootstrap-4-integrating-bootstrap-4-angular-cli-angular-tutorial/
+
+font awesme http://fa2png.io/
+
+carousel in angular http://www.ravinderpayal.com/Simple-and-Light-Weight-Image-or-Content-Slider-for-Angular2/
+
+technology quotes https://ebookfriendly.com/best-technology-quotes/
+https://www.brainyquote.com/quotes/topics/topic_technology.html
+
+
 
 ## Development server
 

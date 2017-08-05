@@ -1,0 +1,12 @@
+<div class="container top">
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item" *ngFor="let sk of skills" >
+      <a class="nav-link" routerLink="/skills/{{ sk.type }}" routerLinkActive="active">
+        {{ sk.name }}
+      </a>
+    </li>
+
+  </ul>
+  <router-outlet></router-outlet>
+  </div>

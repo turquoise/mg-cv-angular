@@ -1,0 +1,18 @@
+
+
+<md-card><h4>{{ skill.name }}</h4></md-card>
+<md-card>
+  <!-- <md-card-title></md-card-title> -->
+<ul>
+  <li *ngFor="let keyword of skill.keywords">
+    {{ keyword.name }} - {{ keyword.type }}
+
+    <p>
+      <ngb-progressbar showValue="true"
+                      type="{{ keyword.level > 50 ? (keyword.level > 60 ? 'info' : 'success') : 'warning'}}"
+                      [value]="keyword.level">
+      </ngb-progressbar>
+    </p>
+
+  </li>
+</ul>

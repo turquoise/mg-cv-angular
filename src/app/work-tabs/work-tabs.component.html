@@ -1,0 +1,22 @@
+<div class="container top">
+  <div class="row">
+    <div class="col-md-4">
+
+      <!-- <ul class="nav flex-column">
+      <li class="nav-item" *ngFor="let wk of work"> -->
+  
+      <md-nav-list>
+        <a *ngFor="let wk of work" class="nav-link" routerLink="/work/{{ wk.link }}" routerLinkActive="active">
+          {{ wk.company }}
+        </a>
+      </md-nav-list>
+
+      <!-- </li>
+    </ul> -->
+
+    </div>
+    <div class="col-md-8">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
