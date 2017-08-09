@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
-
-import { AppRoutingModule } from './app-routing.module';
+import { MdToolbarModule, MdProgressBarModule, MdButtonModule, MdGridListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { DataService } from './services/data.service';
@@ -24,6 +24,8 @@ import { DialogComponent } from './dialog/dialog.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { WorkTabsComponent } from './work-tabs/work-tabs.component';
 import { WorkDetailsComponent } from './work-details/work-details.component';
+import { CssCarouselComponent } from './css-carousel/css-carousel.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { WorkDetailsComponent } from './work-details/work-details.component';
     DialogComponent,
     CarouselComponent,
     WorkTabsComponent,
-    WorkDetailsComponent
+    WorkDetailsComponent,
+    CssCarouselComponent,
+    ProjectsComponent
   ],
   entryComponents: [
     DialogComponent
@@ -52,8 +56,12 @@ import { WorkDetailsComponent } from './work-details/work-details.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgbModule,
-    AccordionModule
+    AccordionModule,
+    MdToolbarModule,
+    MdProgressBarModule,
+    MdButtonModule,
+    MdGridListModule
+
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

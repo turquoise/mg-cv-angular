@@ -26,12 +26,14 @@ export class ContactComponent implements OnInit {
   }
 
   sendEmail(submittedForm) {
+    console.log('submittedForm.value.name ', submittedForm.value.name);
     if (submittedForm.invalid) {
       return;
     }
     this.dataService.sendMail(submittedForm);
 
-    this.openDialog();
+    this.openDialog(submittedForm);
+
     submittedForm.reset();
     submittedForm.setValue({ name: '', email: '', message: ''});
     //this.router.navigate(['/']);
@@ -42,15 +44,16 @@ export class ContactComponent implements OnInit {
     console.log('name ', name);
   }
 
-  openDialog() {
+  openDialog(form) {
 
     this.dialog.open(DialogComponent, {
       width: '400px',
-      height: '200px'
-
+      height: '200px',
+      data: {
+        name: form.value.name
+      }
     });
   }
 
 
 }
-

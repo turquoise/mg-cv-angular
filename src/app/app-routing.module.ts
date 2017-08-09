@@ -8,21 +8,23 @@ import { EducationComponent } from './education/education.component';
 import { SkillTabsComponent } from './skill-tabs/skill-tabs.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const routes = [
   { path: 'profile', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'education', component: EducationComponent },
+  { path: 'projects', component: ProjectsComponent },
   { path: 'skills', component: SkillTabsComponent, children: [
     { path: '', redirectTo: 'ux', pathMatch: 'full'},
     { path: ':type', component: SkillsComponent }
   ]},
-  { path: 'work', component: WorkTabsComponent, children: [
-    { path: '', redirectTo: 'c1', pathMatch: 'full'},
+  { path: 'experience', component: WorkTabsComponent, children: [
+    { path: '', redirectTo: 'computing', pathMatch: 'full'},
     { path: ':link', component: WorkComponent }
   ]},
 
-  { path: '**', redirectTo: '/' }
+  { path: '**', redirectTo: '/profile' }
 ];
 
 @NgModule({

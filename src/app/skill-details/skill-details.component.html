@@ -1,18 +1,16 @@
 
-
-<md-card><h4>{{ skill.name }}</h4></md-card>
 <md-card>
-  <!-- <md-card-title></md-card-title> -->
-<ul>
-  <li *ngFor="let keyword of skill.keywords">
-    {{ keyword.name }} - {{ keyword.type }}
+  <md-card-content *ngFor="let keyword of skill.keywords">
+    <h4 >{{ keyword.name }}</h4>
 
-    <p>
-      <ngb-progressbar showValue="true"
-                      type="{{ keyword.level > 50 ? (keyword.level > 60 ? 'info' : 'success') : 'warning'}}"
-                      [value]="keyword.level">
-      </ngb-progressbar>
-    </p>
-
-  </li>
-</ul>
+    <section>
+      <md-progress-bar
+          class="example-margin"
+          [color]="primary"
+          [mode]="determinate"
+          [value]="keyword.level"
+          [bufferValue]="bufferValue">
+      </md-progress-bar>
+    </section>
+  </md-card-content>
+</md-card>

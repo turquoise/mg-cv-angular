@@ -1,9 +1,22 @@
-
 .top {
-  margin-top: 60px;
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #616161;
+  padding-bottom: 5px;
+}
+
+.heading {
+  margin-left: 110px;
+}
+
+.container {
+  padding-top: 20px;
 }
 
 .nav {
   margin-left: 13px;
+}
 
+a {
+  color: black;
 }

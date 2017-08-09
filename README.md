@@ -39,7 +39,13 @@ carousel in angular http://www.ravinderpayal.com/Simple-and-Light-Weight-Image-o
 technology quotes https://ebookfriendly.com/best-technology-quotes/
 https://www.brainyquote.com/quotes/topics/topic_technology.html
 
+which ui https://stackoverflow.com/questions/39395359/angular-2-ui-components-which-library
 
+responsive carousel - https://scotch.io/tutorials/responsive-carousel-component-with-angular-2
+
+switching remote urls https://help.github.com/articles/changing-a-remote-s-url/
+
+material design toolbar http://www.bossable.com/1338/angular-material-design-toolbar-examples/
 
 ## Development server
 

@@ -37,7 +37,6 @@ export class DataService {
   }
 
   fetchSkills() {
-
     return this.http.get('assets/resume.json')
       .map( (response: Response) => {
         const data = response.json();
@@ -46,6 +45,7 @@ export class DataService {
           return {
             name: res.name,
             type: res.type,
+            description: res.description,
             keywords: res.keywords
           };
         });
@@ -61,10 +61,6 @@ export class DataService {
       );
   }
 
-  fetchBasics() {
-
-  }
-
   fetchWork() {
     return this.http.get('assets/resume.json')
       .map( (response: Response) => {
@@ -73,10 +69,15 @@ export class DataService {
         const work = extractedWork.map( (res) => {
           return {
             company: res.company,
-            link: res.link
+            position: res.position,
+            startDate: res.startDate,
+            endDate: res.endDate,
+            summary: res.summary,
+            link: res.link,
+            highlights: res.highlights
           };
         });
-        console.log('DataService work ', work);
+        // console.log('DataService work ', work);
         return work;
       })
       .subscribe(
@@ -89,8 +90,6 @@ export class DataService {
 
   }
 
-
-
   fetchData() {
     return this.http.get('assets/resume.json')
       .map( (response: Response) => {
@@ -98,8 +97,6 @@ export class DataService {
         return data;
       });
   }
-
-
 
   sendMail(submittedForm) {
     console.log('send');

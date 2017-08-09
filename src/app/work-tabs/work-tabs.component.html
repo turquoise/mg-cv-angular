@@ -1,21 +1,31 @@
 <div class="container top">
-  <div class="row">
-    <div class="col-md-4">
+  <div class="heading">
+  <h1>Experience</h1>
+</div>
+</div>
 
-      <!-- <ul class="nav flex-column">
-      <li class="nav-item" *ngFor="let wk of work"> -->
-  
-      <md-nav-list>
-        <a *ngFor="let wk of work" class="nav-link" routerLink="/work/{{ wk.link }}" routerLinkActive="active">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+
+      <!-- <div class="card" *ngFor="let wk of work">
+        <a  class="nav-link" routerLink="/experience/{{ wk.link }}" routerLinkActive="active">
           {{ wk.company }}
         </a>
-      </md-nav-list>
+      </div> -->
 
-      <!-- </li>
-    </ul> -->
+      <md-list >
+        <md-list-item *ngFor="let wk of work">
+
+          <a  md-button color="primary" class="nav-link" routerLink="/experience/{{ wk.link }}" routerLinkActive="active">
+            {{ wk.company }}
+          </a>
+
+        </md-list-item>
+      </md-list>
 
     </div>
-    <div class="col-md-8">
+    <div class="col-sm-8 col-md-8 col-lg-8">
       <router-outlet></router-outlet>
     </div>
   </div>

@@ -1,11 +1,28 @@
-
 .top {
-  margin-top: 80px;
-}
-.container {
   width: 100%;
+  background-color: #e0e0e0;
+  color: #616161;
+  padding-bottom: 5px;
+}
+
+.heading {
+  margin-left: 110px;
+}
+
+.container {
+  padding-top: 20px;
 }
 
 .form-control.ng-touched.ng-invalid {
   border: 2px solid red;
+}
+
+.round-corners {
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+md-card {
+  background-color: #e0f7fa;
 }

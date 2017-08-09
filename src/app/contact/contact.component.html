@@ -1,6 +1,10 @@
 <div class="container top">
-  <h4>Contact me</h4>
-
+  <div class="heading">
+  <h1>Contact me</h1>
+</div>
+</div>
+<div class="container">
+<md-card >
   <form (submit)="sendEmail(form)" #form="ngForm">
   <div class="form-group">
     <label for="name">Name</label>
@@ -16,6 +20,7 @@
             maxlength="50"
             pattern="[A-Za-z]*\s*[A-Za-z]*\s*\-*[A-Za-z]*$"
             (change)="log(nameCtrl)" >
+
     <div class="alert alert-danger" *ngIf="nameCtrl.invalid && nameCtrl.touched" >
       <div *ngIf="nameCtrl.errors.required" >First name is required</div>
       <div *ngIf="nameCtrl.errors.minlength" >Name should be minimum 3 characters</div>
@@ -51,7 +56,7 @@
             #messageCtrl="ngModel"
             ngModel
             required
-            pattern="(\w+\s*)*" >
+            pattern="(\w+\s*\S*)*\S*" >
     </textarea>
     <div class="alert alert-danger" *ngIf="messageCtrl.invalid && messageCtrl.touched" >
       <div *ngIf="messageCtrl.errors.required" >Message is required</div>
@@ -63,12 +68,12 @@
       Send Email
     </button>
   </a> -->
-  <button class="btn btn-default" type="submit" [disabled]="form.invalid"  >
+  <button md-raised-button color="primary" class="round-corners" type="submit" [disabled]="form.invalid"  >
       Send Email
   </button>
 
   </form>
 <!-- <hr>
 <button (click)="openDialog()" class="btn btn-primary">Test Material Dialog</button> -->
-
+</md-card>
 </div>
