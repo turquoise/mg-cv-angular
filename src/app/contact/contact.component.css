@@ -17,11 +17,11 @@
   border: 2px solid red;
 }
 
-.round-corners {
+/*.round-corners {
   border-radius: 5px;
   outline: none;
   cursor: pointer;
-}
+}*/
 
 md-card {
   background-color: #e0f7fa;

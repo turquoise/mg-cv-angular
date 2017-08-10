@@ -43,85 +43,70 @@
   "projects": [
     {
       "name": "",
+      "id": 1,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Angular Styling & Animations (for Angular 2 and Angular 4)",
+      "courseAuthor": "Maximilian Scharzmuller",
+      "courseUrl": "https://www.udemy.com/angular-styling-animations-for-angular-2-and-angular-4/",
       "image": "",
       "url": ""
     },
     {
       "name": "",
+      "id": 2,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Angular 4 (formerly Angular 2) - The Complete Guide",
+      "courseAuthor": "Maximilian Scharzmuller",
+      "courseUrl": "https://www.udemy.com/the-complete-guide-to-angular-2/",
       "image": "",
       "url": ""
     },
     {
       "name": "",
+      "id": 3,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Angular 2 + Rails 5 Bootcamp",
+      "courseAuthor": "Jordan Hudgens",
+      "courseUrl": "https://www.udemy.com/angular-on-rails-course/",
       "image": "",
       "url": ""
     },
     {
       "name": "",
+      "id": 4,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Angular 2 From The Ground Up",
+      "courseAuthor": "Mirko Nasato",
+      "courseUrl": "https://www.udemy.com/angular-2-from-the-ground-up/",
       "image": "",
       "url": ""
     },
     {
       "name": "",
+      "id": 5,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Learn Angular 2 Development By Building 12 Apps",
+      "courseAuthor": "Eduonix Learning Solutions",
+      "courseUrl": "https://www.udemy.com/learn-angular-2-development-by-building-10-apps/",
       "image": "",
       "url": ""
     },
     {
       "name": "",
+      "id": 6,
       "summary": "",
       "description": "",
-      "course": "",
-      "courseUrl": "",
+      "course": "Build Enterprise Applications with Angular 2 (and Angular 4)",
+      "courseAuthor": "Mosh Hamedani",
+      "courseUrl": "https://www.udemy.com/angular2-advanced/",
       "image": "",
       "url": ""
-    },
-    {
-      "name": "",
-      "summary": "",
-      "description": "",
-      "course": "",
-      "courseUrl": "",
-      "image": "",
-      "url": ""
-    },
-    {
-      "name": "",
-      "summary": "",
-      "description": "",
-      "course": "",
-      "courseUrl": "",
-      "image": "",
-      "url": ""
-    },
-    {
-      "name": "",
-      "summary": "",
-      "description": "",
-      "course": "",
-      "courseUrl": "",
-      "image": "",
-      "url": ""
-    }      
+    }
   ],
   "work": [
     {

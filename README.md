@@ -47,6 +47,13 @@ switching remote urls https://help.github.com/articles/changing-a-remote-s-url/
 
 material design toolbar http://www.bossable.com/1338/angular-material-design-toolbar-examples/
 
+material tutorial https://coursetro.com/posts/code/29/Working-with-Angular-2-Material
+
+simple accordion http://www.advancesharp.com/blog/1212/angular-2-accordion-expand-only-one-at-a-time
+
+
+lorempixel http://lorempixel.com/g/1200/220/abstract/6
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

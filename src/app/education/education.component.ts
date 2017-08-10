@@ -1,17 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 import { DataService } from '../services/data.service';
-import { AccordionConfig } from 'ngx-bootstrap/accordion';
-
-export function getAccordionConfig(): AccordionConfig {
-  return Object.assign(new AccordionConfig(), {closeOthers: true});
-}
+import { fadeAnimation } from '../shared/animations';
 
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css'],
-  providers: [{provide: AccordionConfig, useFactory: getAccordionConfig}]
+  animations: [ fadeAnimation ]
 })
 export class EducationComponent implements OnInit {
 
@@ -21,11 +17,26 @@ export class EducationComponent implements OnInit {
     isOpen: true
   }
 
+  isExpanded: boolean;
   education = [];
+  courses;
+
 
 
   constructor(private dataService: DataService) {
 
+  }
+
+  toggle(i) {
+    this.isExpanded = !this.isExpanded;
+    //this.status.isOpen = !this.status.isOpen;
+    if (i === this.isExpanded) {
+      return;
+    }
+  }
+
+  updateCourse(event) {
+    this.courses = event;
   }
 
   ngOnInit() {
@@ -37,6 +48,7 @@ export class EducationComponent implements OnInit {
         console.log('this.education ', this.education);
       });
   }
+
 
 
 }

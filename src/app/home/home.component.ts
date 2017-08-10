@@ -1,12 +1,13 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-
 import { DataService } from '../services/data.service';
+import { fadeAnimation } from '../shared/animations';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  providers: [ ]
+  animations: [ fadeAnimation ]
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
@@ -37,7 +38,5 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
 
   }
-
-
 
 }

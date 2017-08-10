@@ -9,8 +9,17 @@ h3 {
   color: #e0f7fa;
 }
 
+.active {
+  color: #b2ebf2;
+}
+
 .fa {
   font-size: 50px;
+  color: #b2ebf2;
+}
+
+.material-icons {
+  font-size: 90px;
   color: #b2ebf2;
 }
 

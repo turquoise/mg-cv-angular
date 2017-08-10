@@ -1,5 +1,6 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { MdDialog, MdDialogConfig, MdDialogRef } from '@angular/material';
+import { fadeAnimation } from '../shared/animations';
 
 import { Router } from '@angular/router';
 import { DialogComponent } from '../dialog/dialog.component';
@@ -8,7 +9,8 @@ import { DataService } from '../services/data.service';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
+  animations: [ fadeAnimation ]
 })
 export class ContactComponent implements OnInit {
 

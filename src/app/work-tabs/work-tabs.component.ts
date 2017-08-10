@@ -1,22 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 
 import { DataService } from '../services/data.service';
-
-
+import { fadeAnimation } from '../shared/animations';
 
 @Component({
   selector: 'app-work-tabs',
   templateUrl: './work-tabs.component.html',
   styleUrls: ['./work-tabs.component.css'],
-  providers: [ ]
+  animations: [ fadeAnimation ]
+
 })
+
 export class WorkTabsComponent implements OnInit {
 
-  work = [];
+    work = [];
 
-  constructor(private dataService: DataService) {
+    constructor(
+      private dataService: DataService
+    ) {
+    }
 
-  }
+
 
   ngOnInit() {
 
@@ -29,5 +33,7 @@ export class WorkTabsComponent implements OnInit {
       });
 
   }
+
+
 
 }

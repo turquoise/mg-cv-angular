@@ -6,8 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
-import { AccordionModule } from 'ngx-bootstrap/accordion';
-import { MdToolbarModule, MdProgressBarModule, MdButtonModule, MdGridListModule } from '@angular/material';
+//import { AccordionModule } from 'ngx-bootstrap/accordion';
+import {
+  MdToolbarModule,
+  MdProgressBarModule,
+  MdButtonModule,
+  MdGridListModule,
+  MdTabsModule,
+  MdCardModule,
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { DataService } from './services/data.service';
@@ -26,6 +33,7 @@ import { WorkTabsComponent } from './work-tabs/work-tabs.component';
 import { WorkDetailsComponent } from './work-details/work-details.component';
 import { CssCarouselComponent } from './css-carousel/css-carousel.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +52,8 @@ import { ProjectsComponent } from './projects/projects.component';
     WorkTabsComponent,
     WorkDetailsComponent,
     CssCarouselComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AccordionComponent
   ],
   entryComponents: [
     DialogComponent
@@ -56,11 +65,14 @@ import { ProjectsComponent } from './projects/projects.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AccordionModule,
+    //AccordionModule,
     MdToolbarModule,
     MdProgressBarModule,
     MdButtonModule,
-    MdGridListModule
+    MdGridListModule,
+    MdTabsModule,
+    MdCardModule
+
 
   ],
   providers: [DataService],

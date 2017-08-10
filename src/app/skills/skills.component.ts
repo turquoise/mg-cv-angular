@@ -3,10 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { Subscription } from 'rxjs/Subscription';
 
+
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
+  animations: [ ]
 })
 export class SkillsComponent implements OnInit {
 

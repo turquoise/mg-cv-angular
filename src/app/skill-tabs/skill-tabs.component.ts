@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 import { DataService } from '../services/data.service';
+import { fadeAnimation } from '../shared/animations';
 
 @Component({
   selector: 'app-skill-tabs',
   templateUrl: './skill-tabs.component.html',
-  styleUrls: ['./skill-tabs.component.css']
+  styleUrls: ['./skill-tabs.component.css'],
+  animations: [ fadeAnimation ]
 })
 export class SkillTabsComponent implements OnInit {
 

@@ -5,10 +5,24 @@
   padding-bottom: 5px;
 }
 
+md-grid-tile {
+  background: white;
+}
+
 .heading {
   margin-left: 110px;
 }
 
 .container {
   padding-top: 20px;
+}
+
+.example-card {
+  width: 250px;
+  height: 100%;
+}
+
+.example-header-image {
+  background-image: url('http://lorempixel.com/100/100/abstract/1/');
+  background-size: cover;
 }

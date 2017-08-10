@@ -20,7 +20,7 @@ const routes = [
     { path: ':type', component: SkillsComponent }
   ]},
   { path: 'experience', component: WorkTabsComponent, children: [
-    { path: '', redirectTo: 'computing', pathMatch: 'full'},
+    { path: '', redirectTo: 'computing', pathMatch: 'full' },
     { path: ':link', component: WorkComponent }
   ]},
 

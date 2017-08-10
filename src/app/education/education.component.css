@@ -5,6 +5,12 @@
   padding-bottom: 5px;
 }
 
+.expanded {
+    background: #e0f7fa;
+    /* background: #f0f0f0; */
+
+}
+
 .heading {
   margin-left: 110px;
 }
@@ -15,6 +21,10 @@
 
 accordion-group {
   padding: 5px;
+}
+
+.accordion-heading {
+  height: 70px;
 }
 
 img {

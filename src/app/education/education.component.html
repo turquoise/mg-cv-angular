@@ -1,31 +1,15 @@
 
-<div class="container top">
+<div class="container top" @fadeAnimation >
   <div class="heading">
   <h1>Education</h1>
 </div>
-
 </div>
 
-<div class="container">
+<div class="container" @fadeAnimation>
 
-
-<accordion>
-
-  <accordion-group #group *ngFor="let edu of education" [isOpen]="edu.link === 'lse' ? status.isOpen : !status.isOpen " >
-    <div accordion-heading>
-      <a href="{{ edu.institution.url }}" target="_blank"><img src="{{ edu.institution.logo }}"></a>
-       {{ edu.institution.name }} - {{ edu.area}}
-      <i class="pull-right float-xs-right fa fa-chevron-right"
-         [ngClass]="{'fa-chevron-down': group?.isOpen, 'fa-chevron-right': !group?.isOpen}"></i>
-
-    </div>
-    <div *ngFor="let course of edu.description.courses" >{{ course }}</div>
-  </accordion-group>
-
-
-</accordion>
-
-
+  <app-accordion *ngFor="let e of education" [edu]="e" (eduCourses)="updateCourse($event)">
+    <div *ngFor="let course of courses">{{ course }}</div>
+  </app-accordion>
 
 
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data.service';
 import { Subscription } from 'rxjs/Subscription';
@@ -6,7 +7,8 @@ import { Subscription } from 'rxjs/Subscription';
 @Component({
   selector: 'app-work',
   templateUrl: './work.component.html',
-  styleUrls: ['./work.component.css']
+  styleUrls: ['./work.component.css'],
+  animations: [ ]
 })
 export class WorkComponent implements OnInit {
 

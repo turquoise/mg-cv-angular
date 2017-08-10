@@ -1,0 +1,18 @@
+<div class="zippy">
+  <div
+    class="zippy-heading"
+    [class.expanded]="isExpanded"
+    (click)="toggle()">
+    <a href="{{ edu.institution.url }}" target="_blank"><img src="{{ edu.institution.logo }}"></a>
+     {{ edu.institution.name }} - {{ edu.area}}
+    <span>
+      <i class="pull-right float-xs-right fa fa-chevron-right"
+         [ngClass]="{'fa-chevron-down': status.isOpen, 'fa-chevron-right': !status.isOpen}"></i>
+    </span>
+  </div>
+  <div [@expandCollapse]="isExpanded ? 'expanded' : 'collapsed' "
+      class="zippy-body"
+      >
+    <ng-content></ng-content>
+  </div>
+</div>
