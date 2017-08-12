@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -7,11 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  //@Input('mdMenuTriggerFor') menu;
+  //@Output() onMenuOpen;
+  //@Output() onMenuClose;
+
+  //trigger;
+
 
   constructor() { }
 
   ngOnInit() {
-
   }
+
+  // closeMenu() {
+  //   this.trigger.onMenuClose();
+  // }
 
 }

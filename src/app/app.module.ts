@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@angular/material';
-//import { AccordionModule } from 'ngx-bootstrap/accordion';
 import {
   MdToolbarModule,
   MdProgressBarModule,
@@ -14,7 +13,10 @@ import {
   MdGridListModule,
   MdTabsModule,
   MdCardModule,
+  MdMenuModule,
+  MdIconModule
 } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { DataService } from './services/data.service';
@@ -65,15 +67,15 @@ import { AccordionComponent } from './accordion/accordion.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    //AccordionModule,
     MdToolbarModule,
     MdProgressBarModule,
     MdButtonModule,
     MdGridListModule,
     MdTabsModule,
-    MdCardModule
-
-
+    MdCardModule,
+    MdMenuModule,
+    MdIconModule,
+    FlexLayoutModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

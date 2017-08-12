@@ -1,6 +1,6 @@
-h3 {
+h4 {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   background: #0097a7;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -13,10 +13,15 @@ h3 {
   color: #b2ebf2;
 }
 
-.fa {
-  font-size: 50px;
-  color: #b2ebf2;
-}
+
+
+/*.carousel-item.active,
+.carousel-inner,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+
+}*/
 
 .material-icons {
   font-size: 90px;
@@ -24,10 +29,14 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  /*font-size: 16px;*/
   color: #e0f7fa;
 }
 
 img {
   opacity: 1;
+}
+
+.carousel-indicators {
+  padding: 0;
 }

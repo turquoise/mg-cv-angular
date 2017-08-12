@@ -54,6 +54,16 @@ simple accordion http://www.advancesharp.com/blog/1212/angular-2-accordion-expan
 
 lorempixel http://lorempixel.com/g/1200/220/abstract/6
 
+responsive angular material toolbar - https://coursetro.com/posts/code/67/Angular-4-Material-Tutorial
+
+flex-layout - https://github.com/angular/flex-layout/blob/master/src/demo-app/app/docs-layout-responsive/responsiveShowHide.demo.ts#L15
+
+responsive bootstrap 4 - https://v4-alpha.getbootstrap.com/layout/responsive-utilities/
+
+angular 2 media queries - https://stackoverflow.com/questions/38083182/angular-2-media-queries
+
+flex layout to make an angular 4 app responsive - http://brianflove.com/2017/05/03/responsive-angular/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
