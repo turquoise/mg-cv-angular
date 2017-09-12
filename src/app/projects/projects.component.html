@@ -1,71 +1,86 @@
-<div class="container top">
+<div class="container top" @fadeAnimation>
   <div class="heading">
     <h1>Projects</h1>
   </div>
 </div>
-<div class="container">
-  <md-grid-list cols="2">
+<div class="container" @fadeAnimation>
+  <md-grid-list cols="2" rowHeight="780px">
   <md-grid-tile>
     <md-card class="card">
     <md-card-header>
       <md-card-title>Freecodecamp Front End Development</md-card-title>
-      <md-card-subtitle>Project 1 subtitle</md-card-subtitle>
+      <md-card-subtitle>A series of projects using Angular 4</md-card-subtitle>
     </md-card-header>
-    <a href="" target="_blank">
+    <a href="https://freecodecamp-frontend-dev.herokuapp.com/" target="_blank">
       <img md-card-image src="../../assets/freecodecamp-frontend.png">
     </a>
     <md-card-content>
       <p>
-        Projects undertaken as part of the Freecodecamp Front End Development Certificate.
+        Projects were created in Angular 4 and hosted on Heroku as part of the <a href="https://www.freecodecamp.org" target="_blank">Freecodecamp</a> Front End Development Certificate. Projects include a Random Quote Generator, a Tribute to Johannes Itten with information taken from the Wikipedia API and the Google Books API, Weather App using an open source IP API and the Openweathermap API, Twitch page accessing the Twitch API, Wikipedia page enabling users to seach the Wikipedia API, a Calculator, a Pomodoro clock, a basic Tic Tac Toe game and a basic Simon Says game.
       </p>
     </md-card-content>
   </md-card>
   </md-grid-tile>
+
   <md-grid-tile>
     <md-card class="card">
     <md-card-header>
-      <md-card-title>Pinterest Style App</md-card-title>
-      <md-card-subtitle>Rails Project</md-card-subtitle>
+      <md-card-title>Recipe list using Angular 4</md-card-title>
+      <md-card-subtitle>Angular Udemy Project</md-card-subtitle>
     </md-card-header>
-    <a href="https://monica-pinteresting.herokuapp.com/" target="_blank">
-      <img md-card-image src="../../assets/pinterest.png">
+    <a href="https://turquoise.github.io/udemy-recipes/recipes/1" target="_blank">
+      <img md-card-image src="../../assets/recipes.png">
     </a>
     <md-card-content>
       <p>
-        Rails Prototype to create a Pinterest style app.
+        Created a recipe App in Angular 4 with a list of recipes and a recipe details sections which enables a user to add the ingredients to a shopping list.  The project uses basic email and password authentication using Firebase.  When a user registers on Firebase they are then able to store their own recipes in the Firebase database.  The user interface uses Bootstrap 3.  The project uses Angular routing, Http, Services, rxjs template driven and reactive forms in Angular and an introduction to ngrx.
       </p>
-    </md-card-content>
-  </md-card>
-  </md-grid-tile>
-  <md-grid-tile>
-    <md-card class="card">
-    <md-card-header>
-      <md-card-title>Angular Udemy Project</md-card-title>
-      <md-card-subtitle>Recipe list using ngrx</md-card-subtitle>
-    </md-card-header>
-    <img md-card-image src="http://lorempixel.com/200/200/abstract/3/">
-    <md-card-content>
       <p>
-        Project undertaken as part of Maximilian Scharzmuller's Angular 4 course.
+        Project undertaken as part of <a href="https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/content" target="_blank">Maximilian Scharzmuller's Angular 4 course on Udemy</a>.
       </p>
     </md-card-content>
   </md-card>
   </md-grid-tile>
+
   <md-grid-tile>
     <md-card class="card">
     <md-card-header>
-      <md-card-title>Angular Udemy Project</md-card-title>
-      <md-card-subtitle>Shop front end</md-card-subtitle>
+      <md-card-title>Shop front end using Angular 4 </md-card-title>
+      <md-card-subtitle>Angular Udemy Project</md-card-subtitle>
     </md-card-header>
     <a href="https://udemy-oshop.herokuapp.com/" target="_blank">
       <img md-card-image src="../../assets/oshop.png">
     </a>
     <md-card-content>
       <p>
-        Project undertaken as part of Mosh Hamedani's Angular 4 course.
+        Created a shop front end in Angular 4 with a set of categories for bread, fruit, vegetables and seasonings and spices.  The app uses authentication with Google using angularfire2 and firebase and the data is stored in firebase.  A user who isn't registered can select items and add them to a shopping cart.  However, once they want to check out a user has to sign in with their Google account in order to save items to firebase.  The app uses a combination of localstorage and firebase to store data.  Once the user has logged in to their Google signin they can view a my orders page.  The option exists in firebase to give a user adminstrator rights so they can update the product pages using an Angular form.  It would be possible to expand the prototype to add a payment fulfillment system such as Stripe or Paypal.
+      </p>
+      <p>
+        Project undertaken as part of <a href="https://www.udemy.com/the-complete-angular-master-class/learn/v4/content" target="_blank">Mosh Hamedani's Angular 4 course on Udemy</a>.
       </p>
     </md-card-content>
   </md-card>
   </md-grid-tile>
+
+  <md-grid-tile>
+    <md-card class="card">
+    <md-card-header>
+      <md-card-title>Pinterest Style App</md-card-title>
+      <md-card-subtitle>Rails Project using Rails and Bootstrap</md-card-subtitle>
+    </md-card-header>
+    <a href="https://monica-pinteresting.herokuapp.com/" target="_blank">
+      <img md-card-image src="../../assets/pinterest.png">
+    </a>
+    <md-card-content>
+      <p>
+        Created a Pinterest style app using Rails 4 which allows users to log in using the Rails framework and images Urls are uploaded to Amazon web service.  The app uses bootstrap 3 and Rails gems such as paperclip in order to enable users to upload images.  
+      </p>
+      <p>
+        Rails Prototype to create a Pinterest style app taken part in the <a href="https://onemonth.com/courses/rails" target="_blank">One Month Rails course</a>.
+      </p>
+    </md-card-content>
+  </md-card>
+  </md-grid-tile>
+
 </md-grid-list>
 </div>
