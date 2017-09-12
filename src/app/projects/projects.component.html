@@ -1,10 +1,10 @@
-<div class="container top" @fadeAnimation>
+<div class="container-fluid top" @fadeAnimation>
   <div class="heading">
     <h1>Projects</h1>
   </div>
 </div>
-<div class="container" @fadeAnimation>
-  <md-grid-list cols="2" rowHeight="780px">
+<div class="container" layout="column" @fadeAnimation>
+  <md-grid-list [cols]="cols | async" rowHeight="780px">
   <md-grid-tile>
     <md-card class="card">
     <md-card-header>
@@ -73,7 +73,7 @@
     </a>
     <md-card-content>
       <p>
-        Created a Pinterest style app using Rails 4 which allows users to log in using the Rails framework and images Urls are uploaded to Amazon web service.  The app uses bootstrap 3 and Rails gems such as paperclip in order to enable users to upload images.  
+        Created a Pinterest style app using Rails 4 which allows users to log in using the Rails framework and images Urls are uploaded to Amazon web service.  The app uses bootstrap 3 and Rails gems such as paperclip in order to enable users to upload images.
       </p>
       <p>
         Rails Prototype to create a Pinterest style app taken part in the <a href="https://onemonth.com/courses/rails" target="_blank">One Month Rails course</a>.
