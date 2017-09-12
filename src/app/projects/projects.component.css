@@ -9,6 +9,10 @@ md-grid-tile {
   background: white;
 }
 
+md-card-header {
+  margin-bottom: 20px;
+}
+
 .heading {
   margin-left: 110px;
 }
@@ -17,9 +21,8 @@ md-grid-tile {
   padding-top: 20px;
 }
 
-.example-card {
-  width: 250px;
-  height: 100%;
+.card {
+  width: 350px;
 }
 
 .example-header-image {
