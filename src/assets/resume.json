@@ -266,7 +266,7 @@
     "studyType": "PGCE with QTS",
     "startDate": "September 2013",
     "endDate": "July 2014",
-    "gpa": "4.0",
+    "gpa": "",
     "link": "ucl",
     "description": {
         "text": "Awarded a teacher training scholarship by the British Computer Society as part of a government initiative to promote computer science in schools.",
@@ -393,7 +393,10 @@
       { "name": "HTML", "level": 80},
       { "name": "Bootstrap", "level": 70},
       { "name": "CSS", "level": 70},
-      { "name": "Angular", "level": 50},
+      { "name": "Angular", "level": 70},
+      { "name" : "React", "level": 50},
+      { "name" : "Redux", "level" : 50},
+      { "name" : "Rails", "level" : 40},
       { "name": "Javascript", "level": 50},
       { "name": "TypeScript", "level": 50},
       { "name": "json", "level": 50}
