@@ -3,9 +3,16 @@
     <app-carousel></app-carousel>
 
   <md-card >
-    <h1> {{ basics?.name }}</h1>
-    <h4>{{ basics?.name }}</h4>
-    <p>{{ basics?.label }}</p>
+    <md-card-title> {{ basics?.name }}</md-card-title>
+    <md-card-subtitle>{{ basics?.label }}</md-card-subtitle>
+    <md-card-content>
+      <p>
+        {{ basics?.summary}}
+      </p>
+      <p>
+        {{ basics?.highlights }}
+      </p>
+    </md-card-content>
   </md-card>
 
 </div>
