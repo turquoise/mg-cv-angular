@@ -14,7 +14,8 @@ import {
   MdTabsModule,
   MdCardModule,
   MdMenuModule,
-  MdIconModule
+  MdIconModule,
+  MdTableModule
 } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -75,6 +76,7 @@ import { AccordionComponent } from './accordion/accordion.component';
     MdCardModule,
     MdMenuModule,
     MdIconModule,
+    MdTableModule,
     FlexLayoutModule
   ],
   providers: [DataService],
