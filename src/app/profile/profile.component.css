@@ -36,6 +36,7 @@ h4 {
   border-radius: 40px;
   background-color: lightgray;
   border: 1px solid lightgray;
+  cursor: pointer;
 }
 
 i {
