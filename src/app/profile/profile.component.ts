@@ -1,19 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  trigger,
-  state,
-  transition,
-  style,
-  animate,
-  keyframes,
-  animation,
-  useAnimation }
-  from '@angular/animations';
+import { fadeAnimation } from '../shared/animations';
 
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.css'],
+  animations: [ fadeAnimation ]
 })
 export class ProfileComponent implements OnInit {
 
