@@ -1,4 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  trigger,
+  state,
+  transition,
+  style,
+  animate,
+  keyframes,
+  animation,
+  useAnimation }
+  from '@angular/animations';
 
 @Component({
   selector: 'app-profile',
@@ -10,6 +20,7 @@ export class ProfileComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
   gotTo(location: string) {
