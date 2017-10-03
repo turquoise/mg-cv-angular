@@ -125,7 +125,7 @@
         <div class="col-md-12 col-sm-12" align="center">
           <h1>Monica Gosschalk</h1>
           <br>
-          <h1>UX Designer and Front End Web Developer</h1>
+          <h1>UX Designer and Front End Developer</h1>
           <br>
           <div (click)="gotTo('yellowdiv')">
             <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
@@ -136,13 +136,18 @@
   </div>
   <br><br>
 
-  <div class="yellow">
-    <h2>Yellow</h2>
-    <h4 (click)="gotTo('home')">Go to Blue</h4>
-    <div id="yellowdiv">Hello from Blue</div>
+  <div class="container second">
+    <div class="container inner">
+      <div class="row">
+        <div class="col" align="center">
+          <h4 (click)="gotTo('home')">Go to Blue</h4>
+          <div id="yellowdiv">Hello from Blue</div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="green">
+  <!--<div class="green">
     <h2>Green</h2>
     <h4 (click)="gotTo('home')">Go to Blue</h4>
     <div id="greendiv">Hello from Blue</div>
@@ -153,4 +158,4 @@
     <h4 (click)="gotTo('home')">Go to Blue</h4>
     <div id="reddiv">Hello from Blue</div>
   </div>
-</div>
+</div> -->
