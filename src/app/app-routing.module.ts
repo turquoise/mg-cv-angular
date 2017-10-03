@@ -9,9 +9,10 @@ import { SkillTabsComponent } from './skill-tabs/skill-tabs.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes = [
-  { path: 'profile', component: HomeComponent },
+  { path: 'profile', component: ProfileComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'education', component: EducationComponent },
   { path: 'projects', component: ProjectsComponent },

@@ -1,0 +1,126 @@
+<div class="container">
+  <div class="first" id="home">
+    <div class="container logos">
+
+
+      <!-- Logos -->
+      <div class="row">
+        <div class="col-md-4 col-sm-4" align="center">
+          <img src="../assets/React-icon.svg" alt="react" >
+        </div>
+        <div class="col-md-4 col-sm-4" align="center">
+          <img src="../assets/angular.png" alt="angular" >
+        </div>
+        <div class="col-md-4 col-sm-4" align="center">
+          <img src="../assets/rails.svg" alt="rails" >
+        </div>
+      </div>
+
+      <!-- first row -->
+      <div class="row">
+        <div class="col-md-2 col-sm-2 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/youtube.png" alt="Youtube" >
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/weather.png" alt="Weather" >
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/freecodecamp-frontend.png" alt="freecodecamp front end development" >
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/recipes.png" alt="Recipes" >
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4" align="center">
+          <div class="project">
+            <img class="project" src="../assets/pinterest.png" alt="pinterest rails project" >
+          </div>
+        </div>
+      </div>
+
+      <!-- second row -->
+      <div class="row">
+        <div class="col-md-2 offset-md-5 col-sm-2 offset-sm-5 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/oshop.png" alt="shop front end" >
+          </div>
+        </div>
+      </div>
+
+      <!-- third row -->
+      <div class="row">
+        <div class="col-md-2 offset-md-1 col-sm-2 offset-sm-1 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/reduxstagram.png" alt="Reduxstagram" >
+          </div>
+        </div>
+        <div class="col-md-2 offset-md-1 col-sm-2 offset-sm-1 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/mapit.png" alt="Mapit" >
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 " align="center">
+          <div class="project">
+            <img class="project" src="../assets/moviefinder.png" alt="Movie finder" >
+          </div>
+        </div>
+
+        <div class="col-md-3 offset-md-1 col-sm-3 offset-sm-1 " align="center">
+          <!--<div class="angular"></div> -->
+        </div>
+      </div>
+      <br><br><br>
+
+      <div class="row text-center heading" >
+        <div class="col-md-12 col-sm-12" align="center">
+          <h1>Monica Gosschalk</h1>
+          <br>
+          <h1>UX Designer and Front End Web Developer</h1>
+          <br>
+          <div (click)="gotTo('yellowdiv')">
+            <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <!--<div class="row">
+        <div class="col-md-4">
+          <h2>Blue</h2>
+          <div id="bluediv">Back to Blue</div>
+          <h4 (click)="gotTo('reddiv')">Go to Red</h4>
+          <h4 (click)="gotTo('yellowdiv')">Go to Yellow</h4>
+          <h4 (click)="gotTo('greendiv')">Go to Green</h4>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>-->
+
+    </div>
+  </div>
+
+  <div class="yellow">
+    <h2>Yellow</h2>
+    <h4 (click)="gotTo('home')">Go to Blue</h4>
+    <div id="yellowdiv">Hello from Blue</div>
+  </div>
+
+  <div class="green">
+    <h2>Green</h2>
+    <h4 (click)="gotTo('home')">Go to Blue</h4>
+    <div id="greendiv">Hello from Blue</div>
+  </div>
+
+  <div class="red">
+    <h2>Red</h2>
+    <h4 (click)="gotTo('home')">Go to Blue</h4>
+    <div id="reddiv">Hello from Blue</div>
+  </div>
+</div>
