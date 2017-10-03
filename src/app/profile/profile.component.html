@@ -127,7 +127,7 @@
           <br>
           <h1>UX and Front End Designer, Developer</h1>
           <br>
-          <div (click)="gotTo('yellowdiv')">
+          <div (click)="gotTo('profile')">
             <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
           </div>
         </div>
@@ -139,9 +139,14 @@
   <div class="container second">
     <div class="container inner">
       <div class="row">
-        <div class="col" align="center">
-          <h4 (click)="gotTo('home')">Go to Blue</h4>
-          <div id="yellowdiv">Hello from Blue</div>
+        <div class="col-md-8 offset-md-2" align="center">
+          <h1 id="profile">
+            Hi, I am a Designer, Developer with a background in Design, User Experience and Web Development.  More recently, I have become interested in JavaScript front end frameworks and I have built apps in Angular and React with Redux. I'd love to hear from you if you would like any Prototypes or Single Page Applications built.
+          </h1>
+          <br><br>
+          <div (click)="gotTo('home')">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
     </div>

@@ -5,6 +5,11 @@
   padding-bottom: 5px;
 }
 
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+
 .expanded {
     background: #e0f7fa;
     /* background: #f0f0f0; */
