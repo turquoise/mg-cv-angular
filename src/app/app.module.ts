@@ -38,6 +38,7 @@ import { CssCarouselComponent } from './css-carousel/css-carousel.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ProfileComponent } from './profile/profile.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { ProfileComponent } from './profile/profile.component';
     CssCarouselComponent,
     ProjectsComponent,
     AccordionComponent,
-    ProfileComponent
+    ProfileComponent,
+    ExperienceComponent
   ],
   entryComponents: [
     DialogComponent

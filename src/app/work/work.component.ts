@@ -26,10 +26,9 @@ export class WorkComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(
       (params) => {
-        console.log('work params ', params);
         this.work = this.dataService.getWork(params.link);
         this.loadedLink = params.link;
-        console.log('loadedLink ', params.link);
+        //console.log('loadedLink ', params.link);
       }
     );
     this.subscription = this.dataService.skillsTypeChanged.subscribe(
@@ -40,9 +39,6 @@ export class WorkComponent implements OnInit {
     );
 
     this.dataService.fetchWork();
-
-
-
 
   }
 

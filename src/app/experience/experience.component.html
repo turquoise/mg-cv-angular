@@ -1,0 +1,32 @@
+<div class="container top" @fadeAnimation >
+  <div class="heading">
+  <h1>Experience</h1>
+</div>
+</div>
+
+<div class="container" @fadeAnimation>
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+
+      <md-list >
+        <md-list-item *ngFor="let wk of work"
+                      [class.selected]="wk === selected"
+                      (click)="onSelect(wk)">
+
+          <a  md-button color="primary" class="nav-link">
+            {{ wk.company }}
+          </a>
+
+        </md-list-item>
+      </md-list>
+
+    </div>
+    <div class="col-sm-8 col-md-8 col-lg-8 "  >
+      <div *ngIf="itemSelected">
+        {{ selected.company }}
+      </div>
+
+
+    </div>
+  </div>
+</div>

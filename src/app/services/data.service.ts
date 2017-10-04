@@ -31,7 +31,9 @@ export class DataService {
   getWork(chosenLink) {
 
     return this.work.filter( (result) => {
+      
       return result.link === chosenLink;
+
     });
 
   }

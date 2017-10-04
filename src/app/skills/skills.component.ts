@@ -26,7 +26,6 @@ export class SkillsComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(
       (params) => {
-        console.log('skills params ', params);
         this.skills = this.dataService.getSkills(params.type);
         this.loadedType = params.type;
         console.log('loadedType ', params.type);

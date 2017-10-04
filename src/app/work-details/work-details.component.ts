@@ -15,6 +15,7 @@ export class WorkDetailsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
