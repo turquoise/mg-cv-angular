@@ -23,7 +23,32 @@
     </div>
     <div class="col-sm-8 col-md-8 col-lg-8 "  >
       <div *ngIf="itemSelected">
-        {{ selected.company }}
+        <md-card >
+          <md-card-title>
+            <h2>{{ selected.company }}</h2>
+          </md-card-title>
+
+          <md-list>
+          <md-card-subtitle *ngIf="selected.position">{{ selected.position }}</md-card-subtitle>
+
+          <md-card-content>
+            <table>
+              <tr>
+                <td class="label">From:</td>
+                <td class="data">{{ selected.startDate}}</td>
+                <td class="label">To:</td>
+                <td class="data">{{ selected.endDate }}</td>
+              </tr>
+            </table>
+            <strong>Summary</strong>
+            <p>{{ selected.summary }}</p>
+            <strong>Hightlights</strong>
+            <p>{{ selected.highlights }}</p>
+          </md-card-content>
+        </md-list>
+
+        </md-card>
+
       </div>
 
 
