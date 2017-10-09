@@ -430,10 +430,10 @@
     "level": "",
     "description": "Business requirements and functionality specifications using Axure to combine user interface with business requirements.  Entity relationship diagrams, process flows and use cases for different user and customer groups.",
     "keywords": [
-      { "name": "Process Flow diagrams", "level": 60},
+      { "name": "Process Flow diagrams", "level": 70},
       { "name": "Entity Relationship diagrams", "level": 60 },
-      { "name": "Stakeholder management", "level": 60},
-      { "name": "Project management", "level": 70}
+      { "name": "Stakeholder management", "level": 70},
+      { "name": "Project management", "level": 60}
     ]
   }
 ],
