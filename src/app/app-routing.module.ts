@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { WorkTabsComponent } from './work-tabs/work-tabs.component';
-import { WorkComponent } from './work/work.component';
 import { EducationComponent } from './education/education.component';
 import { SkillTabsComponent } from './skill-tabs/skill-tabs.component';
 import { SkillsComponent } from './skills/skills.component';
