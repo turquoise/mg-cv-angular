@@ -11,7 +11,7 @@
     <p><strong>From:</strong> {{ e.startDate }} <strong>To: </strong> {{ e.endDate }}</p>
     <p>{{ e.description.text }}</p>
     <strong>Courses</strong>
-    <div *ngFor="let course of courses">
+    <div *ngFor="let course of e.description.courses">
       <i class="fa fa-check-square" aria-hidden="true"></i>
       {{ course }}
     </div>
