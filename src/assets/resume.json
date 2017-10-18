@@ -110,6 +110,17 @@
   ],
   "work": [
     {
+    "company": "Angular Front End Web Development",
+    "position": "Developer, Designer",
+    "website": "",
+    "startDate": "September 2016",
+    "endDate": "To Date",
+    "summary": "JavaScript web development with Angular and React.",
+    "highlights": [
+      "Developed skills in Angular and React by taking a number of courses on Udemy and at ultimateangular.com.  Currently working on a number of projects in Angular and in React to develop single page applications for private clients."
+    ]
+  },
+    {
     "company": "Computer Science Teaching",
     "position": "Computer Science Teacher",
     "website": "",
@@ -118,9 +129,7 @@
     "summary": "Supply Teaching: Taught in both independent and mainstream secondary schools teaching the Computer Science curriculum to students in years 7 to 13.",
     "link": "computing",
     "highlights": [
-      "Introduced Python to all Year 9 students in an independent school who had no experience in text based programming",
-      "Taught JavaScript to Year 10 in a mainstream school taking the OCR GCSE Computing exam in preparation of the Practical Investigation Controlled Assessment",
-      "Taught AQA AS level classes for Computer Science theory and encouraged students to work in an analytical way and to share solutions to problems."
+      "Introduced Python to all Year 9 students in an independent school who had no experience in text based programming.  Taught JavaScript to Year 10 in a mainstream school taking the OCR GCSE Computing exam in preparation of the Practical Investigation Controlled Assessment.  Taught AQA AS level classes for Computer Science theory and encouraged students to work in an analytical way and to share solutions to problems."
     ]
   },
   {
@@ -132,9 +141,7 @@
     "summary": "Created a course using Microsoft Kodu to teach conditional logic and visual programming to primary school children.",
     "link": "kodu",
     "highlights": [
-      "Developed and presented an after school club for children to learn game development and conditional logic using Kodu Game Lab.",
-      "Wrote modular course material suitable for group work and for self-study for the children to quickly acquire the skills and confidence to develop their own games. ",
-      "Two groups of children reached Kodu Kup Microsoft finals as a result of taking part in the training course."
+      "Developed and presented an after school club for children to learn game development and conditional logic using Kodu Game Lab. Wrote modular course material suitable for group work and for self-study for the children to quickly acquire the skills and confidence to develop their own games. Two groups of children reached Kodu Kup Microsoft finals as a result of taking part in the training course."
     ]
   },
   {
@@ -156,15 +163,10 @@
     "website": "",
     "startDate": "January 2000",
     "endDate": "October 2002",
-    "summary": "Wrote business, functional and technical requirements.  Originated process diagrams illustrating decision points throughout the customer journey. ",
+    "summary": "Created business, functional and technical requirements. Originated process models of the decision points for the customer journey.",
     "link": "eurorscg",
     "highlights": [
-      "Worked with marketing planners and designed a customer relationship marketing software solution which maps customer journeys through a buyer's lifecycle.  ",
-      "Customer states are tagged across the acquisition, retention and cross selling stages of the customer journey.",
-      "Potential buyers are sent marketing communication relevant to their tagged state within the customer journey.",
-      "Defined the business process requirements which map a customer's explicit behaviour from online forms and their event based activities which log specific web pages the customer has visited.  ",
-      ".  Liaised with Developers in the US and prepared an iterative development plan to build a modular software solution using existing and new software.  ",
-      "Wrote proposals for pre-sales client pitches for content management and customer relationship marketing solutions."
+      "Incorporated marketing strategy and plans into the design of an enterprise customer relationship marketing solution, mapping the customer journeys through each buyer's lifecycle. Customer states were identified and tracked through the acquisition, retention and cross-selling stages of the customer journey.  Potential buyers received marketing communications relevant to their current state within the customer journey.  Defined the business process requirements which map a customer's explicit behaviour from online forms and their event-based web site activity logs.  Liaised with developers based in the US and prepared an iterative development plan to build a modular solution integrating new software components with the reuse of existing systems. Wrote bid proposals and pre-sales client pitches for content management and customer relationship marketing solutions, based around the enhanced capabilities of the solution. "
     ]
   },
   {
@@ -173,13 +175,10 @@
     "website": "",
     "startDate": "1999",
     "endDate": "2000",
-    "summary": "Business requirements and technical requirements.  Product evaluations to evaluate content management software.  Modified xml DTDs for publishing entity relationship diagrams for a content management database.",
+    "summary": "Business requirements and technical requirements. Product evaluations to evaluate content management software. Modified xml DTDs for publishing entity relationship diagrams for a content management database.",
     "link": "informa",
     "highlights": [
-      "Liaised with business directors and managers in charge of trade publications in order to articulate and write an e-business strategy and requirements for delivering an ecommerce publishing solution. ",
-      "Developed the first version of the interactive e-commerce publishing portal (www.lloydslist.com).  The interactive service enabled different types of users to access information relevant to their professional purposes and requirements.  ",
-      "The interactive service combined information from databases about ship ownership, cargo, and destination as well as up to date news stories about the maritime industry. ",
-      " Worked with editors and journalists to ensure that during the pre-production phase each ship mentioned in a news story was cross-referenced with the relevant ship's record in the database.  Wrote a business case to the Board and recommended and delivered  a content management and e-commerce solution."
+      "Liaised with business directors and managers in charge of trade publications in order to articulate and write an e-business strategy and requirements for delivering an ecommerce publishing solution. Developed the first version of the interactive e-commerce publishing portal (www.lloydslist.com). The interactive service enabled different types of users to access information relevant to their professional purposes and requirements. The interactive service combined information from databases about ship ownership, cargo, and destination as well as up to date news stories about the maritime industry. , Worked with editors and journalists to ensure that during the pre-production phase each ship mentioned in a news story was cross-referenced with the relevant ship's record in the database. Wrote a business case to the Board and recommended and delivered a content management and e-commerce solution."
     ]
   },
   {
@@ -188,14 +187,10 @@
     "website": "",
     "startDate": "1998",
     "endDate": "1999",
-    "summary": "Gap analysis between existing software and business requirements.  Technical requirements and wireframe storyboards.",
+    "summary": "Gap analysis between existing software and business requirements. Technical requirements and wireframe storyboards.",
     "link": "itnetwork",
     "highlights": [
-      "Developed an interactive service to provide users with detailed information about computer hardware and peripherals combined with news stories and videos.   ",
-      "The purpose of the site was to provide marketing information about products to potential customers.   ",
-      "Revenue was earned from the site by selling advertising space to frequently accessed web pages with relevant content.  ",
-      "Conducted workshops with business stakeholders in order to discuss and prioritise detailed business requirements for website navigation and user interface design.  ",
-      "Analysed the management information and ROI measures that evaluated the success of the website."
+      "Developed an interactive service to provide users with detailed information about computer hardware and peripherals combined with news stories and videos. The purpose of the site was to provide marketing information about products to potential customers. Revenue was earned from the site by selling advertising space to frequently accessed web pages with relevant content. Conducted workshops with business stakeholders in order to discuss and prioritise detailed business requirements for website navigation and user interface design. Analysed the management information and ROI measures that evaluated the success of the website."
     ]
   },
   {
@@ -207,10 +202,7 @@
     "summary": "Business requirements, workflow and process diagrams and documentation.  Wireframe storyboards.  Research and software evaluations.",
     "link": "bupa",
     "highlights": [
-      "Worked with business directors to produce business requirements and was in charge of creative development and user interface design of interactive web based healthcare products and stand alone touch screen applications.   ",
-      "Liaised with the Head of Brand Development to reinterpret and redesign the BUPA brand from traditional advertising channels to first generation interactive services on the internet.   ",
-      "Designed the user interface for BUPA Touchpoint screens for providing the general public with entertainment and information about BUPA's services.  ",
-      "Responsible for the usability and functional requirements and managed a relationship with a third party partner (Current Science Group) in order to build the first version of www.consultantnet.org which is a specialised website for BUPA's medical consultants.  The site included electronic billing, news, email and discussion forums."
+      "Produce business requirements and was in charge of creative development and user interface design of interactive web based healthcare products and stand alone touch screen applications.  Rrinterpreted and redesigned the BUPA brand from traditional advertising channels to first generation interactive services on the internet.  Designed the user interface for BUPA Touchpoint screens for providing the general public with entertainment and information about BUPA's services.  Responsible for the usability and functional requirements and managed a relationship with a third party partner (Current Science Group) in order to build the first version of www.consultantnet.org which is a specialised website for BUPA's medical consultants.  The site included electronic billing, news, email and discussion forums. "
     ]
   },
   {
@@ -222,9 +214,8 @@
     "summary": "Business and technical requirements.  Use case scenarios and wire frame storyboards.",
     "link": "webdesign",
     "highlights": [
-      "Created an online presence for a publishing agent to present book covers and excerpts from books.   ",
-      "The site was launched to include reviews and upcoming book launches.  Produced a modular user interface for intranet patent databases for Derwent information Ltd.   ",
-      "The system emphasised signposting and categorisation to enable novice users to navigate the patent literature."
+      "Created an online presence for a publishing agent to present book covers and excerpts from books. The site was launched to include reviews and upcoming book launches.  Produced a modular user interface for intranet patent databases for Derwent information Ltd. The system emphasised signposting and categorisation to enable novice users to navigate the patent literature."
+
     ]
   },
   {
@@ -236,9 +227,8 @@
     "summary": "Functional requirements, business and project plans.",
     "link": "design",
     "highlights": [
-      "Designed and organised the production of custom wall to wall carpets and wall hangings for corporate and private clients.    ",
-      "Clients included the Daily Mail, Friends Provident and Colonial Mutual.  ",
-      "Managed the entire workflow from initial concept to the delivery of the final product which had been hand constructed by Vsoske Joyce in Ireland."
+      "Designed and organised the production of custom wall to wall carpets and wall hangings for corporate and private clients. Clients included the Daily Mail, Friends Provident and Colonial Mutual.  Managed the entire workflow from initial concept to the delivery of the final product which had been hand constructed by Vsoske Joyce in Ireland."
+
     ]
   }
 ],
@@ -262,7 +252,7 @@
         "logo": "https://www.ucl.ac.uk/visual-identity/logos/standalone.png",
         "url": "https://www.ucl.ac.uk/ioe/courses/teacher-training/computing-ict-pgce"
       },
-    "area": "Computer Science Teacher Training",
+    "area": "PGCE with QTS - Computer Science Teacher Training",
     "studyType": "PGCE with QTS",
     "startDate": "September 2013",
     "endDate": "July 2014",
@@ -286,7 +276,7 @@
         "logo": "http://takeielts.britishcouncil.org/sites/default/files/London-School-of-Economics-and-Political-Science-Logo.png?1425825812",
         "url": "http://www.lse.ac.uk/"
       },
-    "area": "Analysis, Design and Management of Information Systems",
+    "area": "MSc. Analysis, Design and Management of Information Systems",
     "studyType": "MSc. Information Systems",
     "startDate": "September 1996",
     "endDate": "July 1997",
@@ -315,7 +305,7 @@
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Birkbeck%2C_University_of_London_logo.svg/311px-Birkbeck%2C_University_of_London_logo.svg.png",
         "url": "http://www.bbk.ac.uk/psychology/"
       },
-    "area": "Cognitive Psychology",
+    "area": "BSc. First Class Cognitive Psychology",
     "studyType": "BSc. Psychology",
     "startDate": "September 1990",
     "endDate": "July 1994",
@@ -344,7 +334,7 @@
         "logo": "https://www.konstfack.se/Global/extern/konstfack_logotyp_stor.jpg",
         "url": "https://www.konstfack.se/en/"
       },
-    "area": "Art and Design",
+    "area": "BA Art and Design",
     "studyType": "BA Textile Design",
     "startDate": "September 1980",
     "endDate": "June 1984",
