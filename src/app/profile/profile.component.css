@@ -9,7 +9,7 @@
 }
 
 img {
-  height: 80px;
+  height: 90px;
 }
 
 h1 {
@@ -34,9 +34,27 @@ h4 {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  background-color: lightgray;
-  border: 1px solid lightgray;
+  /*background-color: lightgray;
+  border: 1px solid lightgray;*/
   cursor: pointer;
+}
+
+.react {
+  background-color: #61dafb;
+  border: 2px solid #61dafb;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.angular {
+  background-color: #dd0330;
+  border: 2px solid #dd0330;
+  box-shadow: 10px 10px 5px lightgray;
+}
+
+.rails {
+  background-color:#9d2236;
+  border: 2px solid #9d2236;
+  box-shadow: 10px 10px 5px lightgray;
 }
 
 .project .tooltiptext {
